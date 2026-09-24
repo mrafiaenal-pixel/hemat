@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Mendaftarkan elemen mana saja yang diberi efek muncul halus
   const elementsToAnimate = document.querySelectorAll(
-    ".hero-text, .hero-img-container, .card, .telemetry-grid, .teaser-box",
+    ".hero-text, .hero-img-container, .card, .telemetry-grid, .iot-summary-box, .teaser-box",
   );
   elementsToAnimate.forEach((el) => {
     el.classList.add("fade-in-up");
