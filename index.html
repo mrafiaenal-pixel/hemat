@@ -4,176 +4,148 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BijakEnergi — Kampanye Konservasi Energi Sekolah</title>
+  <title>Bijak Daya Wikrama — Kampanye Konservasi Energi</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
 
-  <!-- HEADER & NAVIGASI -->
   <header>
     <div class="container nav-wrapper">
-      <a href="#" class="brand">Bijak<span>Energi</span></a>
+      <a href="#" class="brand">Bijak<span>Daya</span></a>
       <nav>
         <ul>
           <li><a href="#beranda">Beranda</a></li>
-          <li><a href="#latar-belakang">Latar Belakang</a></li>
-          <li><a href="#sistem-iot">Sistem IoT</a></li>
-          <li><a href="#tentang">Tentang Tim</a></li>
-          <li><a href="#fase2">Data &amp; Grafik</a></li>
+          <li><a href="#latar-belakang">Realita & Aksi</a></li>
+          <li><a href="#sistem-iot">Data IoT</a></li>
+          <li><a href="#tentang">Inisiator</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main>
-    <!-- 1. SEKSI BERANDA / HERO -->
-    <section id="beranda" class="hero">
-      <div class="container">
-        <div class="badge">Inisiatif Konservasi Energi Sekolah</div>
-        <h1>Matikan yang tak perlu, pantau yang terpakai.</h1>
-        <p class="lead-text">
-          Kampanye efisiensi energi terintegrasi dengan pemantauan perangkat berbasis Internet of Things (IoT) untuk
-          mewujudkan lingkungan belajar yang berkelanjutan dan hemat daya.
-        </p>
-        <div class="hero-actions">
-          <a href="#sistem-iot" class="btn btn-primary">Lihat Node Sensor IoT</a>
-          <a href="#latar-belakang" class="btn btn-outline">Latar Belakang Kampanye</a>
+    <section id="beranda">
+      <div class="container hero">
+        <div class="hero-text">
+          <h1>Bukan Sekadar Slogan. Ini Aksi Terukur.</h1>
+          <p class="lead-text">
+            Kampanye konservasi energi berbasis data. Mengawinkan literasi lingkungan dengan pemantauan sensor cerdas
+            untuk menekan jejak karbon di lingkungan SMK Wikrama Bogor.
+          </p>
+          <a href="#latar-belakang" class="btn">Lihat Rencana Aksi Kita</a>
+        </div>
+        <div class="hero-img-container">
+          <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&q=80&w=1000"
+            alt="Ilustrasi energi berkelanjutan">
         </div>
       </div>
     </section>
 
-    <!-- 2. SEKSI LATAR BELAKANG & TUJUAN -->
     <section id="latar-belakang">
       <div class="container">
-        <h2>Mengapa Kampanye Ini Penting?</h2>
-        <p>
-          Pemborosan listrik sering kali terjadi bukan karena kebutuhan operasional yang tinggi, melainkan akibat
-          kebiasaan pasif: proyektor yang menyala tanpa pemakaian, pendingin ruangan (AC) yang beroperasi di ruangan
-          kosong, serta pencahayaan di siang hari yang berlebih.
-        </p>
-
-        <div class="grid-3">
+        <div class="grid-2">
           <div class="card">
-            <h3 class="card-title">1. Sadar Perilaku</h3>
-            <p>Membangun kebiasaan proaktif bagi seluruh warga sekolah untuk mematikan sakelar dan mencabut steker saat
-              perangkat tidak digunakan.</p>
+            <h2>Realita Pemborosan Kita</h2>
+            <p>
+              Sebagai sekolah vokasi, aktivitas kita padat teknologi. Laboratorium komputer PPLG yang beroperasi penuh,
+              pendingin ruangan di ruang rapat, hingga lampu yang menyala di jam istirahat. Hal-hal kecil ini adalah
+              penyumbang emisi karbon terbesar di sekolah.
+            </p>
+            <p>
+              Sayangnya, himbauan moral seperti "Matikan Lampu" sering kali diabaikan karena dampaknya tidak terlihat.
+              Kita butuh transparansi data agar warga sekolah sadar seberapa besar daya yang terbuang percuma.
+            </p>
           </div>
           <div class="card">
-            <h3 class="card-title">2. Transparansi Beban</h3>
-            <p>Menampilkan konsumsi energi nyata berbasis sensor, sehingga upaya konservasi tidak lagi sekadar asumsi,
-              tetapi berdasarkan angka pasti.</p>
-          </div>
-          <div class="card">
-            <h3 class="card-title">3. Efisiensi Berkelanjutan</h3>
-            <p>Mendukung agenda Education for Sustainable Development (ESD) melalui pengurangan emisi karbon dan biaya
-              listrik operasional.</p>
+            <h2>Proyek Kampanye Kita</h2>
+            <p>
+              Proyek Education for Sustainable Development (ESD) ini tidak berhenti pada pembuatan website. Ini adalah
+              kampanye perilaku yang akan kita wujudkan melalui tiga langkah strategis:
+            </p>
+            <ul class="list-campaign">
+              <li>Pemasangan sensor daya IoT di titik padat energi (Fase Uji Coba).</li>
+              <li>Publikasi data real-time untuk membangun literasi sains warga sekolah.</li>
+              <li>Penerapan protokol "Hemat Energi" pada operasional kepanitiaan acara sekolah mendatang (seperti
+                Wikrama Cup V).</li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 3. SEKSI UNSUR IoT (HARDWARE & TELEMETRI STATIS FASE 1) -->
     <section id="sistem-iot">
       <div class="container">
-        <div class="badge badge-iot">Infrastruktur Sensor IoT</div>
-        <h2>Pemantauan Daya Cerdas</h2>
-        <p>
-          Website ini terhubung secara konseptual dengan modul sensor arus dan daya (seperti PZEM-004T / CT Sensor
-          berbasis ESP32) yang dipasang pada panel distribusi gedung belajar. Data statis di bawah ini merupakan
-          pratinjau pembacaan telemetri Fase 1 sebelum integrasi JSON dinamis di Fase 2.
-        </p>
-
-        <div class="iot-status-bar">
-          <div class="status-indicator"></div>
-          <span>Node Gateway 01: Ruang Kelas &amp; Laboratorium (Pratinjau Statis)</span>
+        <div class="iot-header">
+          <div>
+            <h2>Telemetri Sensor (Fase Uji Coba)</h2>
+            <p style="max-width: 600px;">
+              Untuk mengubah kebiasaan, kita harus melihat buktinya. Ini adalah simulasi antarmuka pemantauan beban
+              listrik dari mikrokontroler yang terpasang. Angka ini akan memvalidasi apakah kampanye hemat energi kita
+              berhasil atau tidak.
+            </p>
+          </div>
+          <div class="iot-status-bar">
+            <div class="status-indicator"></div>
+            <span>Node 01: Lab PPLG (Online)</span>
+          </div>
         </div>
 
         <div class="telemetry-grid">
           <div class="telemetry-item">
-            <div class="telemetry-label">Daya Sesaat</div>
-            <div class="telemetry-value">420 <span class="telemetry-unit">Watt</span></div>
+            <div class="telemetry-label">Daya Terbuang (Siang)</div>
+            <div class="telemetry-value">425<span class="telemetry-unit">W</span></div>
           </div>
           <div class="telemetry-item">
-            <div class="telemetry-label">Tegangan Jala-Jala</div>
-            <div class="telemetry-value">224 <span class="telemetry-unit">Volt</span></div>
+            <div class="telemetry-label">Status Jaringan</div>
+            <div class="telemetry-value">224<span class="telemetry-unit">V</span></div>
           </div>
           <div class="telemetry-item">
-            <div class="telemetry-label">Arus Terukur</div>
-            <div class="telemetry-value">1.88 <span class="telemetry-unit">Ampere</span></div>
+            <div class="telemetry-label">Beban Arus</div>
+            <div class="telemetry-value">1.89<span class="telemetry-unit">A</span></div>
           </div>
           <div class="telemetry-item">
-            <div class="telemetry-label">Estimasi Hari Ini</div>
-            <div class="telemetry-value">3.45 <span class="telemetry-unit">kWh</span></div>
+            <div class="telemetry-label">Proyeksi Emisi Harian</div>
+            <div class="telemetry-value">1.8<span class="telemetry-unit">kg CO₂</span></div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 4. SEKSI TENTANG TIM & PROYEK -->
     <section id="tentang">
       <div class="container">
-        <h2>Identitas Proyek</h2>
-        <p>
-          Proyek kampanye ini dikembangkan sebagai bagian dari pembelajaran lintas mata pelajaran (PABP, KIK, PP, MTK,
-          Bahasa Indonesia) dengan fokus pada aksi nyata konservasi lingkungan.
-        </p>
-
-        <div class="grid-2">
-          <div class="card">
-            <h3 class="card-title">Tim Pengembang</h3>
-            <p><strong>Kelompok:</strong> Tim Konservasi Energi</p>
-            <p><strong>Konsentrasi Keahlian:</strong> Pengembangan Perangkat Lunak &amp; Gim (PPLG)</p>
-            <p><strong>Fokus Proyek:</strong> Antarmuka Web, Telemetri IoT &amp; Pengolahan Data ESD</p>
-          </div>
-          <div class="card">
-            <h3 class="card-title">Alur Pengerjaan Bertahap</h3>
-            <p><strong>Fase 1:</strong> Rancang bangun antarmuka dasar &amp; integrasi instrumen IoT (selesai 24
-              September 2026).</p>
-            <p><strong>Fase 2:</strong> Visualisasi grafik interaktif Chart.js dari data angket &amp; observasi.</p>
-            <p><strong>Fase 3:</strong> Formulasi aksi rekomendasi konkrit hemat energi.</p>
-          </div>
+        <h2>Inisiator Kampanye</h2>
+        <div class="card" style="margin-top: 24px;">
+          <h3>Kelompok 7 PPLG XI - 3</h3>
+          <p style="margin-bottom: 8px;"><strong>Konsentrasi:</strong> Pengembangan Perangkat Lunak & Gim (PPLG)</p>
+          <p style="margin-bottom: 8px;"><strong>Institusi:</strong> SMK Wikrama Bogor</p>
+          <p style="margin-bottom: 0;"><strong>Konteks:</strong> Proyek integrasi Web, IoT, dan Kampanye Perilaku (ESD)
+          </p>
         </div>
       </div>
     </section>
 
-    <!-- 5. TEASER MENUJU FASE 2 & FASE 3 -->
-    <section id="fase2">
+    <section id="teaser">
       <div class="container">
-        <h2>Kesiapan Data &amp; Grafik</h2>
-        <p>
-          Halaman penyajian data akan aktif pada <strong>Fase 2</strong> setelah hasil olah data angket dan observasi
-          lapangan selesai diproses.
-        </p>
-
         <div class="teaser-box">
-          <h3>Jalur Data yang Disiapkan untuk Fase 2:</h3>
-          <p style="margin-top: 8px; color: #4b5563;">
-            1. Integrasi file data <code>energi-data.json</code>.<br>
-            2. Pemanggilan library <code>Chart.js</code> melalui CDN.<br>
-            3. Grafik perbandingan pemahaman warga sekolah vs. beban konsumsi aktual dari sensor IoT.
+          <h2>Seberapa Paham Warga Sekolah Kita?</h2>
+          <p>
+            Data dari sensor mesin hanyalah sebagian cerita. Di <strong>Fase 2</strong> nanti, kami akan mempublikasikan
+            grafik hasil angket dan observasi: apakah kebiasaan mematikan perangkat elektronik sudah menjadi budaya,
+            atau sekadar aturan di atas kertas?
           </p>
+          <a href="#" class="btn" style="pointer-events: none;">Visualisasi Data (Menyusul di Fase 2)</a>
         </div>
       </div>
     </section>
   </main>
 
-  <!-- FOOTER -->
   <footer>
-    <div class="container footer-content">
-      <div>
-        <strong>BijakEnergi</strong> &copy; 2026 — Education for Sustainable Development.
-      </div>
-      <div>
-        Dibangun bertahap: HTML5 &bull; CSS3 Standar &bull; Kesiapan Sensor IoT
-      </div>
+    <div class="container">
+      <p>Pembangunan Fase 1 Website Kampanye Konservasi Energi &bull; Target: 24 September 2026</p>
     </div>
   </footer>
-
-  <!-- SKRIP INTERAKSI RINGAN (SMOOTH SCROLL) -->
-  <script src="/js/script.js">
-
-  </script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
